@@ -7,6 +7,8 @@ import python from './../../assets/python.ico'
 import styled from './../../assets/styled.png'
 import html from './../../assets/html.png'
 import css from './../../assets/css.png'
+import sql from './../../assets/sql.png'
+import oracle from './../../assets/oracle.png'
 
 
 export function AboutMe (){
@@ -31,7 +33,7 @@ export function AboutMe (){
         <span> 
         <AboutText  className="AboutInfo">
         8 anos de experiência na área de tecnologia dentre estes, passando por diversos níveis profissionais! Graduado em Análise e Desenvolvimento de Sistemas, com MBA em Gestão de Projetos. <p/>
-        Hoje, estou estudando e me especializando para migrar à área de programação, com foco em FrontEnd para Web. <p/> Tenho rápida absorção de conteúdo colocando em prática já tudo que aprendo e sempre buscando a melhoria contínua em ter um código de qualidade! <p/>Tenho conhecimento intermediário com Python e suas bibliotecas, criação de DataFrames e modelagem de dados DW com ferramentas de ETLs.
+        Hoje, atuo com Coordenador de TI voltado para a gestão de ERP e infraesturuta, mas atuamente estou estudando e me especializando para migrar à área de programação, com foco em FrontEnd para Web. <p/> Tenho rápida absorção de conteúdo colocando em prática já tudo que aprendo e sempre buscando a melhoria contínua em ter um código de qualidade! <p/>Tenho conhecimento intermediário com Python e suas bibliotecas, criação de DataFrames e modelagem de dados DW com ferramentas de ETLs.
          </AboutText>
         </span>
       </AboutInfo>
@@ -45,8 +47,8 @@ export function AboutMe (){
               <li><img src={styled} alt="" />Stylend Components <strong>90%</strong></li>
               <li><img src={html} alt="" />HTML <strong>95%</strong></li>
               <li><img src={css} alt="" />CSS <strong>90%</strong></li>
-              <li><img src={css} alt="" />Oracle <strong>80%</strong></li>
-              <li><img src={css} alt="" />SQL <strong>90%</strong></li>
+              <li><img src={oracle} alt="" />Oracle <strong>80%</strong></li>
+              <li><img src={sql} alt="" />SQL <strong>90%</strong></li>
             </ul>
         </SkillIco>
         <SoftKils>
