@@ -12,20 +12,16 @@ export const AboutContainer = styled.div `
   align-items: center;
   padding: 1rem;
   gap: 2rem;
- 
-  #id{
-    scroll-behavior: smooth;
+
+  @media (max-width: 1074px) {
+    display: flex;
+    flex-direction: column;
   }
 
 `
-
-
+ 
 export const AboutInfo = styled.div `
-#aboutme{
-  scroll-behavior: smooth;
-}
-    
-  
+  scroll-behavior: ${props => props?.id && 'smooth'};
   display:  flex;
   height: 32rem;
   gap: 2rem;
@@ -40,6 +36,7 @@ export const AboutInfo = styled.div `
   border-radius: 1rem;
   filter: drop-shadow(8px 8px 5px rgba(0,255,0,.2));
 
+ 
 
   strong{
     display: flex;

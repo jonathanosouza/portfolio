@@ -6,6 +6,11 @@ align-items: center;
 background: ${(props) => props.theme['gray-900']};
 justify-content: center;
 margin-top: -4rem;
+
+@media(max-width: 1116px) {
+  display: flex;
+  flex-direction: column;
+}
 `
 
 

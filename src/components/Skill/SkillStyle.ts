@@ -22,4 +22,34 @@ export const SkillContainer = styled.div`
     text-decoration: none;
     color: ${(props) => props.theme['green-300']};  
   }
+
+  @media(max-width: 895px) {
+  display: flex;
+  flex-direction: row;
+  margin-top: -10rem;
+  justify-content: center;
+  ul{
+    display: flex;
+    list-style: none;
+    margin-left: -1rem;
+    gap: 1rem;
+    justify-content: center;
+  }
+   
+  }
+
+  @media(max-width: 1116px) {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1px;
+  justify-content: center;
+  ul{
+    display: flex;
+    list-style: none;
+    margin-left: -1rem;
+    gap: 1rem;
+    justify-content: center;
+  }
+   
+  }
 `

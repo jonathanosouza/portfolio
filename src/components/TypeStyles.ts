@@ -46,8 +46,11 @@ li::after {
   100%{
     left:0;
   }
-
 }
+
+
+
+
 
 `
 
@@ -65,8 +68,6 @@ export const TipeWriterContainer = styled.div `
   strong{
   color: ${(props) => props.theme['green-500']};
   }
-  
-  
 
 `
 

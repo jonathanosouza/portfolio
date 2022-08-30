@@ -8,11 +8,14 @@ margin-top:-6rem;
 gap: 2rem;
 justify-content: center;
 padding:2rem;
+background: red;
+
 
 `
 
 
 export const SlideCard = styled.div `
+
 display: flex;
 width: 15rem;
 height: 20rem;
@@ -68,6 +71,7 @@ button:hover{
   background:${(props) => props.theme['green-300']};
 }
 
+
 `
 
 export const CartContainer = styled.div `
@@ -78,6 +82,12 @@ background: ${(props) => props.theme['gray-900']};
 gap: 1rem;
 justify-content: center;
 padding:2rem;
+
+@media(max-width: 1093px) {
+    display: flex;
+    flex-wrap: wrap;
+    background: blue;
+  }
 `
 
 export const SlideButton = styled.div `

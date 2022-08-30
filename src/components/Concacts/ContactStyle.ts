@@ -33,4 +33,21 @@ export const ContactsContainer = styled.div `
   text-align: justify;
   font-size: 1.15rem;
   }
+
+
+  @media(max-width: 1093px) {
+    margin-top: 20rem;
+  }
+
+  @media(max-width: 895px) {
+    margin-top: 4rem;
+  }
+
+  @media(max-width: 680px) {
+    margin-top: 1rem;
+  }
+
+  @media(max-width: 899px) {
+    margin-top: 85rem;
+  }
 `

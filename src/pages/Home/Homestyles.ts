@@ -5,6 +5,7 @@ export const HomeContainer = styled.div`
 background: ${(props) => props.theme['gray-900']};
 width: 100wh;
 height:100vh;
+
 `
 
 export const HomeHeader = styled.div`
@@ -13,6 +14,28 @@ justify-content: space-around;
 align-items: center;
 color: ${(props) => props.theme['white']};
 padding: 1rem;
+
+@media(max-width: 895px) {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  }
+
+@media (max-width: 1074px) {
+    display: flex;
+    flex-direction: column;
+  }
+
+@media (max-width: 421px) {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+
+
 `
 
 
@@ -28,9 +51,6 @@ a{
   text-decoration: none;
   color: white;
 }
-
-
-
 
 span:hover:nth-child(2){
   background: ${(props) => props.theme['green-300']};
@@ -81,6 +101,17 @@ span:hover:last-child{
   cursor: pointer;
 }
 
+@media (max-width: 1074px) {
+    display: flex;
+    
+  }
+
+@media (max-width: 421px) {
+    display: flex;
+    flex-direction: column;
+  }
+
+
 `
 
 export const Hello = styled.div`
@@ -90,6 +121,24 @@ color: ${(props) => props.theme['white']};
 font-family: 'Baloo';
 padding: 8rem;
 font-size: 4rem;
+
+@media (max-width: 1074px) {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    justify-content: center;
+    
+  }
+
+@media (max-width: 421px) {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+  
+  }
+  
+
 
 `
 
