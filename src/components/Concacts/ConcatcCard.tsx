@@ -32,7 +32,7 @@ export function ContactShow (){
   }
 
 
-  const form = useRef();
+  const form = useRef<any>();
 
   const sendEmail = (e : any) => {
     e.preventDefault();
