@@ -27,7 +27,7 @@ export function ModalCard (){
   }
  
 
-function handleOnChange  (event){
+function handleOnChange  (event:any){
   event.preventDefault()
   const taskname = event.target.value
   const validado = taskname
@@ -37,7 +37,7 @@ function handleOnChange  (event){
 }
 
 
-  const handleSubmit = (event) => {  
+  const handleSubmit = (event : any) => {  
     event.preventDefault()
     setModalIsOpen(false)
     
