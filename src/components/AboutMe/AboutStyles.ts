@@ -1,4 +1,7 @@
-import styled from "styled-components";
+import styled, {css} from "styled-components";
+
+
+
 
 export const AboutContainer = styled.div `
   display:  flex;
@@ -9,11 +12,20 @@ export const AboutContainer = styled.div `
   align-items: center;
   padding: 1rem;
   gap: 2rem;
+ 
+  #id{
+    scroll-behavior: smooth;
+  }
 
-  
 `
 
+
 export const AboutInfo = styled.div `
+#aboutme{
+  scroll-behavior: smooth;
+}
+    
+  
   display:  flex;
   height: 32rem;
   gap: 2rem;
@@ -27,7 +39,6 @@ export const AboutInfo = styled.div `
   padding: 1rem;
   border-radius: 1rem;
   filter: drop-shadow(8px 8px 5px rgba(0,255,0,.2));
-
 
 
   strong{
@@ -237,5 +248,3 @@ export const SoftKils = styled.div `
 
 
   `
-
-

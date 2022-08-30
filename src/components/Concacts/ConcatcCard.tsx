@@ -57,7 +57,7 @@ export function ContactShow (){
   //  }
 
       return (
-        <SlideContanier>
+        <SlideContanier id="contacts">
          {/* <SlideButton><ArrowFatLeft size={32} /></SlideButton> */}
           <CartInputContact>
             <InputCart ref={form} onSubmit={sendEmail}> 

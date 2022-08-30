@@ -22,10 +22,11 @@ export function AboutMe (){
     
   
 
+
   return (
     <AboutContainer className="headline">
   
-      <AboutInfo>
+      <AboutInfo id="aboutme">
         <strong> <TerminalWindow size={40} color = "#00B37E"/>About Me <span>_</span></strong>
         <span> 
         <AboutText  className="AboutInfo">
@@ -34,7 +35,6 @@ export function AboutMe (){
          </AboutText>
         </span>
       </AboutInfo>
-
       <SkillInfo className="SkillInfo">
         <SkillIco  className="SoftSkillContanier">
         <strong> <Code size={40} color = "#00B37E"/>Hard Skills <span>_</span></strong>

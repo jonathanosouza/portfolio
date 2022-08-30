@@ -23,6 +23,15 @@ justify-content: center;
 align-items: center;
 padding: 1rem;
 
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
 span:hover:nth-child(2){
   background: ${(props) => props.theme['green-300']};
   padding: 10px;
@@ -83,3 +92,5 @@ padding: 8rem;
 font-size: 4rem;
 
 `
+
+
