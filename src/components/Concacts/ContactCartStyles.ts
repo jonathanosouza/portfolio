@@ -50,10 +50,9 @@ ul li:nth-child(1) {
 }
 
 img{
-  margin-top: 1rem;
   background: white;
   width: 12rem;
-  height: 9rem;
+  height: 10rem;
   border-radius: 50%;
   border: 7px solid ${(props) => props.theme['green-500']}
 }

@@ -87,7 +87,6 @@ padding:2rem;
     flex-wrap: wrap;
     overflow-x: scroll;
     overflow-x: hidden;
-    overflow-y: hidden;
   }
 `
 

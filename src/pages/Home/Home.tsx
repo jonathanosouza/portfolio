@@ -14,8 +14,6 @@ import { Footer } from "../../layouts/Footer/footer";
 
 export function Home(){
 
-
-
   return (
     <HomeContainer>
         <HomeHeader>
