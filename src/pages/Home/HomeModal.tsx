@@ -21,10 +21,10 @@ export function HomeModal(){
         <HomeHeader>
           <h2>Jonathan Souza</h2>
         <HomeMenu>
-           <span>About Me</span>
-           <span>My Portfolio</span>
-           <span>My Skills</span>
-           <span>Concact Me</span>
+         <span><a href="#aboutme">About Me</a></span>
+         <span><a href="#aboutme">My Skills</a></span>
+         <span><a href="#projects">My Portfolio</a></span>
+         <span><a href="#contacts">Concact Me</a></span>
         </HomeMenu>
         </HomeHeader>
         <Hello>
