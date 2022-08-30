@@ -50,4 +50,34 @@ button:hover{
 strong { 
   color: ${(props) => props.theme['white']};
 }
+
+@media(max-width: 421px) {
+ 
+input{ 
+  height: 4rem;
+  padding: 0.75rem;
+  width: 20rem;
+}
+
+button{
+  padding: 1rem;
+  border-radius: 1rem;
+  background: ${(props) => props.theme['green-300']};
+  color: ${(props) => props.theme['white']};
+
+}
+
+button:hover{
+  padding: 1rem;
+  border-radius: 1rem;
+  background: ${(props) => props.theme['green-700']};
+ 
+
+}
+
+strong { 
+  color: ${(props) => props.theme['white']};
+}
+}
+
 `
