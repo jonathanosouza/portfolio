@@ -13,7 +13,7 @@ export const AboutContainer = styled.div `
   padding: 1rem;
   gap: 2rem;
 
-  @media (max-width: 1074px) {
+  @media (max-width: 421px) {
     display: flex;
     flex-direction: column;
   }
@@ -64,6 +64,53 @@ export const AboutInfo = styled.div `
   font-family: 'Roboto';
   font-size: 1.15rem;
   }
+
+
+  @media (max-width: 421px) {
+  display:  flex;
+  height: 32rem;
+  gap: 2rem;
+  width: 24rem;
+  margin-bottom: 10rem;
+  align-items: center;
+  flex-direction: column;
+  background: ${(props) => props.theme['gray-800']};
+  color: white;
+  margin-top: -3rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  filter: drop-shadow(8px 8px 5px rgba(0,255,0,.2));
+
+ 
+
+  strong{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+  }
+  strong span {
+  color: ${(props) => props.theme['green-300']};
+  font-size: 4rem;
+  margin-top: -3rem;
+  margin-left: -0.55rem;
+  }
+  
+  span{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: ${(props) => props.theme['gray-300']};
+  line-height: -10px;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  font-family: 'Roboto';
+  font-size: 1rem;
+  }
+  }
+
 `
 
 export const AboutText = styled.div`
@@ -176,6 +223,9 @@ li strong {
     height: 2rem;
     
   }
+
+
+
 `
 
 
@@ -184,7 +234,7 @@ export const SkillInfo = styled.div `
   filter: drop-shadow(8px 8px 5px rgba(0,255,0,.2));
   display:  grid;
   grid-template-columns: 1fr 1fr;
-  height: 32rem;
+  height:32rem;
   gap: 1rem;
   width: 40rem;
   margin-bottom: 10rem;
@@ -214,17 +264,24 @@ export const SkillInfo = styled.div `
   align-items: center;
   text-align: justify;
   font-family: 'Roboto';
-  font-size: 1.15rem;
-  }
+  font-size: 1.15rem}
+
+ @media (max-width : 421px) {
+    display: flex;
+    flex-direction:column;
+    height:60rem;
+    width: 25rem;}
 `
 
 
 export const SoftKils = styled.div `
   display:  grid; 
   height: 1rem;
-  
+
+
   `
   export const SoftSkillContanier = styled.div `
+
 
     ul {
       display: grid;

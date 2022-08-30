@@ -1,7 +1,7 @@
 
-import React from "react";
 import { useName } from "./Context";
 import Typewriter from 'typewriter-effect'
+import { TipeWriterContainer } from "./TypeStyles";
 
 export function TypewriterCard() {  
 
@@ -9,7 +9,7 @@ export function TypewriterCard() {
 
 return(
  
-    <strong> 
+    <TipeWriterContainer>
       <Typewriter
          onInit={(typewriter)=> {
          typewriter
@@ -32,8 +32,8 @@ return(
          .start();
          }}
          /> 
-          </strong>)
+          </TipeWriterContainer>
 
-
+)
 }
 

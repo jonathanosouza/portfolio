@@ -15,21 +15,11 @@ align-items: center;
 color: ${(props) => props.theme['white']};
 padding: 1rem;
 
-@media(max-width: 895px) {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-  }
-
-@media (max-width: 1074px) {
-    display: flex;
-    flex-direction: column;
-  }
 
 @media (max-width: 421px) {
     display: flex;
     flex-direction: column;
+    
   }
 
 
@@ -101,14 +91,12 @@ span:hover:last-child{
   cursor: pointer;
 }
 
-@media (max-width: 1074px) {
-    display: flex;
-    
-  }
+
 
 @media (max-width: 421px) {
     display: flex;
     flex-direction: column;
+    gap: 2rem;
   }
 
 

@@ -7,7 +7,7 @@ background: ${(props) => props.theme['gray-900']};
 justify-content: center;
 margin-top: -4rem;
 
-@media(max-width: 1116px) {
+@media(max-width: 421px) {
   display: flex;
   flex-direction: column;
 }
@@ -85,6 +85,11 @@ input{
 
 }
 
+
+@media(max-width: 421px) {
+  width: 20rem;
+  height: 35rem;
+}
 `
 
 export const CartContainer = styled.div `
@@ -111,11 +116,17 @@ ul {
   color: ${(props) => props.theme['green-500']};
   }
 
+
+
 `
 export const CartInputContact = styled.div `
 display: flex;
 justify-content: center;
 padding:2rem;
+
+
+
+
 `
 
 
@@ -171,6 +182,11 @@ button:hover{
 
 }
 
+
+@media(max-width: 421px) {
+  width: 25rem;
+  height: 30rem;
+}
 `
 
 

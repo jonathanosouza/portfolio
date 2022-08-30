@@ -36,18 +36,18 @@ export const ContactsContainer = styled.div `
 
 
   @media(max-width: 1093px) {
-    margin-top: 20rem;
+    margin-top: -10rem;
   }
 
   @media(max-width: 895px) {
-    margin-top: 4rem;
+    margin-top: -10rem;
   }
 
   @media(max-width: 680px) {
-    margin-top: 1rem;
+    margin-top: -10rem;
   }
 
   @media(max-width: 899px) {
-    margin-top: 85rem;
+    margin-top: 8rem;
   }
 `
