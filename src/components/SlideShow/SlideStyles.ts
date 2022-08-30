@@ -8,7 +8,6 @@ margin-top:-6rem;
 gap: 2rem;
 justify-content: center;
 padding:2rem;
-background: red;
 
 
 `
@@ -86,7 +85,7 @@ padding:2rem;
 @media(max-width: 1093px) {
     display: flex;
     flex-wrap: wrap;
-    background: blue;
+    overflow-x: scroll;
   }
 `
 
