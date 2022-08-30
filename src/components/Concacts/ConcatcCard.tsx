@@ -34,7 +34,7 @@ export function ContactShow (){
 
   const form = useRef();
 
-  const sendEmail = (e) => {
+  const sendEmail = (e : any) => {
     e.preventDefault();
 
     emailjs.sendForm('gmailMesage', 'template_13hyu97', form.current, '0emZEu0w3-bvJtyhj')
