@@ -21,8 +21,8 @@ export function SlideShow (){
             </SlideCard>
             <SlideCard> 
             <img src={dtmoney} alt="" />
-              <h3> Em Breve</h3>
-              <a href="https://github.com/jonathanosouza/dtmoney-ignite" type='blank'>
+              <h3> DT Money</h3>
+              <a href="https://github.com/jonathanosouza/dtmoney-ignite" target='_blank'>
                 <button><HandPointing size={20}/>Acessar</button>
               </a>
               {/* <h3> <span>Deploy:</span> <a href=""> github.com</a></h3>
@@ -31,7 +31,7 @@ export function SlideShow (){
            <SlideCard> 
            <img src={profile} alt="" />
               <h3> Em Breve</h3>
-              <a href="https://www.clinicaaldemircarneiro.com.br/">
+              <a href="https://www.clinicaaldemircarneiro.com.br/" target='_blank'>
                 <button><HandPointing size={20}/>Acessar</button>
               </a>
               {/* <h3> <span>Deploy:</span> <a href=""> github.com</a></h3>
@@ -40,7 +40,7 @@ export function SlideShow (){
             <SlideCard> 
             <img src={profile} alt="" />
               <h3> Em Breve</h3>
-              <a href="https://www.clinicaaldemircarneiro.com.br/">
+              <a href="https://www.clinicaaldemircarneiro.com.br/" target='_blank'>
                 <button><HandPointing size={20}/>Acessar</button>
               </a>
               {/* <h3> <span>Deploy:</span> <a href=""> github.com</a></h3>
@@ -49,7 +49,7 @@ export function SlideShow (){
             <SlideCard> 
               <img src={profile} alt="" />
               <h3> Em Breve</h3>
-              <a href="https://www.clinicaaldemircarneiro.com.br/">
+              <a href="https://www.clinicaaldemircarneiro.com.br/" target='_blank'>
                 <button><HandPointing size={20}/>Acessar</button>
               </a>
               {/* <h3> <span>Deploy:</span> <a href=""> github.com</a></h3>
