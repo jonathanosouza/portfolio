@@ -15,7 +15,7 @@ export function SlideShow (){
               <img src={profile2} alt="" />
               <h3> Clinica Aldemir Carneiro</h3>
               <a href="https://www.clinicaaldemircarneiro.com.br/" target="_blank">
-                <button><HandPointing size={20}/>Acessar Site</button>
+                <button><HandPointing size={20}/>Acessar</button>
               </a>
               {/* //<h3> <span>Deploy:</span> <a href=""> github.com</a></h3>  */}
             </SlideCard>
@@ -23,7 +23,7 @@ export function SlideShow (){
             <img src={dtmoney} alt="" />
               <h3> Em Breve</h3>
               <a href="https://github.com/jonathanosouza/dtmoney-ignite" type='blank'>
-                <button><HandPointing size={20}/>Acessar Repositório</button>
+                <button><HandPointing size={20}/>Acessar</button>
               </a>
               {/* <h3> <span>Deploy:</span> <a href=""> github.com</a></h3>
               <h3> <span>Deploy:</span> <a href=""> github.com</a></h3> */}
@@ -32,7 +32,7 @@ export function SlideShow (){
            <img src={profile} alt="" />
               <h3> Em Breve</h3>
               <a href="https://www.clinicaaldemircarneiro.com.br/">
-                <button><HandPointing size={20}/>Acessar Site</button>
+                <button><HandPointing size={20}/>Acessar</button>
               </a>
               {/* <h3> <span>Deploy:</span> <a href=""> github.com</a></h3>
               <h3> <span>Deploy:</span> <a href=""> github.com</a></h3> */}
@@ -41,7 +41,7 @@ export function SlideShow (){
             <img src={profile} alt="" />
               <h3> Em Breve</h3>
               <a href="https://www.clinicaaldemircarneiro.com.br/">
-                <button><HandPointing size={20}/>Acessar Site</button>
+                <button><HandPointing size={20}/>Acessar</button>
               </a>
               {/* <h3> <span>Deploy:</span> <a href=""> github.com</a></h3>
               <h3> <span>Deploy:</span> <a href=""> github.com</a></h3> */}
@@ -50,7 +50,7 @@ export function SlideShow (){
               <img src={profile} alt="" />
               <h3> Em Breve</h3>
               <a href="https://www.clinicaaldemircarneiro.com.br/">
-                <button><HandPointing size={20}/>Acessar Site</button>
+                <button><HandPointing size={20}/>Acessar</button>
               </a>
               {/* <h3> <span>Deploy:</span> <a href=""> github.com</a></h3>
               <h3> <span>Deploy:</span> <a href=""> github.com</a></h3> */}
