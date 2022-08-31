@@ -44,7 +44,7 @@ export function AboutMe (){
               <li><img src={react} alt="" /> React <strong>40%</strong></li>
               <li><img src={js} alt="" /> JavaSrcipt <strong>60%</strong></li>
               <li><img src={python} alt="" />Python <strong>50%</strong></li>
-              <li><img src={styled} alt="" />Stylend Components <strong>90%</strong></li>
+              <li><img src={styled} alt="" />Styled Components <strong>90%</strong></li>
               <li><img src={html} alt="" />HTML <strong>95%</strong></li>
               <li><img src={css} alt="" />CSS <strong>90%</strong></li>
               <li><img src={oracle} alt="" />Oracle <strong>80%</strong></li>

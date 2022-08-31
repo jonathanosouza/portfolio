@@ -1,6 +1,7 @@
 import {  ArrowFatLeft, ArrowFatRight, ArrowLeft, HandPointing, StarFour } from 'phosphor-react';
 import profile2 from '../../assets/wanessa.jpeg'
 import profile from '../../assets/aguarde.png'
+import dtmoney from '../../assets/dtmoney.jpeg'
 import { CartContainer, SlideButton, SlideCard, SlideContanier } from './SlideStyles';
 
 export function SlideShow (){
@@ -19,10 +20,10 @@ export function SlideShow (){
               {/* //<h3> <span>Deploy:</span> <a href=""> github.com</a></h3>  */}
             </SlideCard>
             <SlideCard> 
-            <img src={profile} alt="" />
+            <img src={dtmoney} alt="" />
               <h3> Em Breve</h3>
-              <a href="https://www.clinicaaldemircarneiro.com.br/" type='blank'>
-                <button><HandPointing size={20}/>Acessar Site</button>
+              <a href="https://github.com/jonathanosouza/dtmoney-ignite" type='blank'>
+                <button><HandPointing size={20}/>Acessar Repositório</button>
               </a>
               {/* <h3> <span>Deploy:</span> <a href=""> github.com</a></h3>
               <h3> <span>Deploy:</span> <a href=""> github.com</a></h3> */}

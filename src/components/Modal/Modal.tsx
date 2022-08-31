@@ -54,13 +54,12 @@ function handleOnChange  (event:any){
    
    
       <FormContainer>
-     
         <FormInput onSubmit={handleSubmit} >
         <h1> Olá, Deixa eu te conhecer também?</h1> 
         <strong> Qual  é o seu nome?</strong> 
         <input placeholder="Digite seu Nome:" onChange={handleOnChange} type="text" />
       <Link to="home">  <button type="submit">Clique para me conhecer</button> </Link>
-          </FormInput>
+        </FormInput>
      
       </FormContainer>
     
